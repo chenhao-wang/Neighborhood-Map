@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Welcome to Riverside</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 searchList">
+                <nav class="navbar navbar-light bg-light">                    
+                        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" data-bind="textInput: searchTerm, valueUpdate: 'afterkeydown'"> 
+                </nav>
+
+                <div>
+                    <ul class="list-group" data-bind="foreach: filteredList">
+                        <li class="list-group-item" data-bind="text: title, click: bindMarker"></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-10">
+                <div id="map" class="map">There is an error loading Google Map. Please try again later.</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIesZhV0247zOuB79aMG8Ff9SIlU6F9Kc&v=3&callback=startApp" onerror="errorHandling()">
+    </script>
+</body>
+</html>

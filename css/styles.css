@@ -1,0 +1,44 @@
+html,body {
+    font-family: Arial, sans-serif;
+    height:100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#pano {
+    width: 200px;
+    height: 200px;
+}
+
+.map {
+    width: 100%; 
+    height: 700px;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.description {
+    font-family: serif, sans-serif;
+    width: 200px;
+    height: 100px;
+    word-wrap: break-word;
+    overflow: scroll;
+}
+
+.title {
+    font-family: Sans-serif, serif;
+    width: 200px;
+    word-wrap: break-word;
+}
+
+.searchList {
+    background: grey;
+}
