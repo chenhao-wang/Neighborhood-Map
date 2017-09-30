@@ -1,5 +1,16 @@
-To run this app,
+Neighborhood Map
 ===============
+To run this app
+---------------
 Download the whoe project folder and click index.html
+<br>Or click [here](https://chenhaow.github.io/Udacity-Neighborhood-Map/)
 
-Or click [here](https://chenhaow.github.io/Udacity-Neighborhood-Map/)
+API
+----
+Google Maps API
+Wikipedia API
+
+Framework and Library
+---------------------
+jQuery, knockout, bootstrap
+
