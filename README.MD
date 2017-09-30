@@ -8,7 +8,7 @@ Download the whoe project folder and click index.html
 API
 ----
 Google Maps API
-Wikipedia API
+<br>Wikipedia API
 
 Framework and Library
 ---------------------
